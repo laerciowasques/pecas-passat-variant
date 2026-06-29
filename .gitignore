@@ -1,0 +1,19 @@
+# artefatos locais
+.vercel/
+node_modules/
+.DS_Store
+Thumbs.db
+
+# debug e fontes de imagem
+img/_debug/
+img/_sources/
+
+# duplicatas e arquivos de trabalho na raiz
+new panfleto.png
+lista original.png
+Lista de peças-PassatVariant.png
+WhatsApp Image*.jpeg
+
+# imagens não usadas no site atual
+img/flyer-original.png
+img/passat-*.jpeg
