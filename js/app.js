@@ -3,20 +3,26 @@ let catalogo = null;
 const FLYER = {
   w: 1024,
   h: 1536,
-  listaTop: 473,
-  listaBottom: 1172,
   listaLeft: 3.5,
   listaWidth: 93,
+  rowHalfH: 18,
+  // Centros calibrados no panfleto 1024×1536 (coluna dos números das linhas)
+  rowCenters: [
+    481, 527, 573, 618, 663, 708, 755, 798, 841, 883, 923, 952, 1005, 1045, 1083, 1123, 1162, 1186,
+    1220, 1264,
+  ],
 };
 
 function pctY(px) {
   return (px / FLYER.h) * 100;
 }
 
-function listaFrameStyle() {
+function rowStyle(centerY) {
+  const top = centerY - FLYER.rowHalfH;
+  const height = FLYER.rowHalfH * 2;
   return [
-    `top:${pctY(FLYER.listaTop)}%`,
-    `height:${pctY(FLYER.listaBottom - FLYER.listaTop)}%`,
+    `top:${pctY(top)}%`,
+    `height:${pctY(height)}%`,
     `left:${FLYER.listaLeft}%`,
     `width:${FLYER.listaWidth}%`,
   ].join(';');
@@ -44,7 +50,7 @@ function renderFlyerHotspots(pecas) {
   const rows = pecas
     .map(
       (peca) => `
-        <div class="flyer-lista-row" data-row="${peca.id}">
+        <div class="flyer-lista-row" data-row="${peca.id}" style="${rowStyle(FLYER.rowCenters[peca.id - 1])}">
           <div class="flyer-row-highlight" aria-hidden="true"></div>
           <button
             type="button"
@@ -57,11 +63,7 @@ function renderFlyerHotspots(pecas) {
     )
     .join('');
 
-  overlay.innerHTML = `
-    <div class="flyer-lista-frame flyer-lista-frame--hotspots" style="${listaFrameStyle()}">
-      ${rows}
-    </div>
-  `;
+  overlay.innerHTML = `<div class="flyer-lista-frame flyer-lista-frame--hotspots">${rows}</div>`;
 }
 
 function setupFlyerRowHighlight() {
