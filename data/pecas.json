@@ -10,23 +10,23 @@
     "whatsapp": "5511940077941",
     "telefone": "+55 11 94007-7941"
   },
-  "valorTotalEstimado": 23051,
-  "descontoPercentual": 30,
+  "valorTotalEstimado": 31437,
+  "descontoPercentual": 10,
   "pecas": [
     {
       "id": 1,
       "nome": "Painel de Instrumento",
       "descricao": "Painel de instrumentos original, em ótimo estado de conservação.",
-      "preco": 1260,
+      "preco": 1620,
       "precoOriginal": 1800,
       "categoria": "interior",
       "imagem": "img/pecas/01-painel.jpg"
     },
     {
       "id": 2,
-      "nome": "Botões de Comandos",
+      "nome": "Botões de Comandos (Lote)",
       "descricao": "Conjunto de botões de comandos do painel central.",
-      "preco": 245,
+      "preco": 315,
       "precoOriginal": 350,
       "categoria": "interior",
       "imagem": "img/pecas/02-botoes.jpg"
@@ -35,7 +35,7 @@
       "id": 3,
       "nome": "Saídas de Ar Condicionado",
       "descricao": "Difusores de ar condicionado originais VW.",
-      "preco": 350,
+      "preco": 450,
       "precoOriginal": 500,
       "categoria": "interior",
       "imagem": "img/pecas/03-ar-condicionado.jpg"
@@ -44,7 +44,7 @@
       "id": 4,
       "nome": "Jogo de Bancos",
       "descricao": "Conjunto completo de bancos em couro marrom, excelente estado.",
-      "preco": 3850,
+      "preco": 4950,
       "precoOriginal": 5500,
       "categoria": "interior",
       "imagem": "img/pecas/04-bancos.jpg"
@@ -53,7 +53,7 @@
       "id": 5,
       "nome": "Portas Dianteiras e Traseiras (4 portas completas)",
       "descricao": "4 portas completas com vidro e forro interno.",
-      "preco": 3640,
+      "preco": 4680,
       "precoOriginal": 5200,
       "categoria": "carroceria",
       "imagem": "img/pecas/05-portas.jpg"
@@ -62,7 +62,7 @@
       "id": 6,
       "nome": "Jogo de Rodas com Pneus",
       "descricao": "4 rodas de liga leve originais com pneus.",
-      "preco": 3360,
+      "preco": 4320,
       "precoOriginal": 4800,
       "categoria": "rodas",
       "imagem": "img/pecas/06-rodas.jpg"
@@ -71,7 +71,7 @@
       "id": 7,
       "nome": "Multimídia MIB",
       "descricao": "Central multimídia MIB original Volkswagen.",
-      "preco": 1260,
+      "preco": 1620,
       "precoOriginal": 1800,
       "categoria": "eletrica",
       "imagem": "img/pecas/07-multimidia.jpg"
@@ -80,7 +80,7 @@
       "id": 8,
       "nome": "Porta Luvas",
       "descricao": "Porta-luvas original com fechadura funcionando.",
-      "preco": 315,
+      "preco": 405,
       "precoOriginal": 450,
       "categoria": "interior",
       "imagem": "img/pecas/08-porta-luvas.jpg"
@@ -89,7 +89,7 @@
       "id": 9,
       "nome": "Rack de Teto",
       "descricao": "Rack de teto cromado original, pronto para instalar.",
-      "preco": 490,
+      "preco": 630,
       "precoOriginal": 700,
       "categoria": "exterior",
       "imagem": "img/pecas/09-rack-teto.jpg"
@@ -98,7 +98,7 @@
       "id": 10,
       "nome": "Antena de Teto",
       "descricao": "Antena shark fin original do teto.",
-      "preco": 126,
+      "preco": 162,
       "precoOriginal": 180,
       "categoria": "exterior",
       "imagem": "img/pecas/10-antena.jpg"
@@ -107,7 +107,7 @@
       "id": 11,
       "nome": "Comando do Ar Condicionado",
       "descricao": "Painel de comando do ar condicionado digital.",
-      "preco": 490,
+      "preco": 630,
       "precoOriginal": 700,
       "categoria": "interior",
       "imagem": "img/pecas/11-comando-ar.jpg"
@@ -116,7 +116,7 @@
       "id": 12,
       "nome": "Manopla de Câmbio",
       "descricao": "Manopla original do câmbio automático.",
-      "preco": 315,
+      "preco": 405,
       "precoOriginal": 450,
       "categoria": "interior",
       "imagem": "img/pecas/12-manopla.jpg"
@@ -125,7 +125,7 @@
       "id": 13,
       "nome": "Farol Lado Direito",
       "descricao": "Farol dianteiro direito original, em ótimo estado.",
-      "preco": 1120,
+      "preco": 1440,
       "precoOriginal": 1600,
       "categoria": "iluminacao",
       "imagem": "img/pecas/13-farol.jpg"
@@ -134,16 +134,16 @@
       "id": 14,
       "nome": "Volante Original Sem Air Bag",
       "descricao": "Volante original sem airbag, couro em excelente estado.",
-      "preco": 630,
+      "preco": 810,
       "precoOriginal": 900,
       "categoria": "interior",
       "imagem": "img/pecas/14-volante.jpg"
     },
     {
       "id": 15,
-      "nome": "Tampa do Porta Malas com Vidro Traseira e Elétrica",
-      "descricao": "Tampa traseira elétrica com vidro traseiro integrado.",
-      "preco": 1750,
+      "nome": "Tampa do Porta Malas com Vidro",
+      "descricao": "Tampa traseira com vidro traseiro integrado.",
+      "preco": 2250,
       "precoOriginal": 2500,
       "categoria": "carroceria",
       "imagem": "img/pecas/15-porta-malas.jpg"
@@ -152,7 +152,7 @@
       "id": 16,
       "nome": "Tampão Interno do Portas Malas",
       "descricao": "Tampão interno / prateleira do porta-malas.",
-      "preco": 420,
+      "preco": 540,
       "precoOriginal": 600,
       "categoria": "interior",
       "imagem": "img/pecas/16-tampao.jpg"
@@ -161,7 +161,7 @@
       "id": 17,
       "nome": "Tanque de Combustível",
       "descricao": "Tanque de combustível original, sem vazamentos.",
-      "preco": 490,
+      "preco": 630,
       "precoOriginal": 700,
       "categoria": "mecanica",
       "imagem": "img/pecas/17-tanque.jpg"
@@ -170,7 +170,7 @@
       "id": 18,
       "nome": "Carpete Completo",
       "descricao": "Jogo completo de carpetes internos originais.",
-      "preco": 630,
+      "preco": 810,
       "precoOriginal": 900,
       "categoria": "interior",
       "imagem": "img/pecas/18-carpete.jpg"
@@ -179,7 +179,7 @@
       "id": 19,
       "nome": "Retrovisores Lado Direito e Esquerdo",
       "descricao": "Par de retrovisores elétricos (direito e esquerdo).",
-      "preco": 1050,
+      "preco": 1350,
       "precoOriginal": 1500,
       "categoria": "exterior",
       "imagem": "img/pecas/19-retrovisor.jpg"
@@ -188,7 +188,7 @@
       "id": 20,
       "nome": "Sistema do ABS",
       "descricao": "Módulo e componentes do sistema ABS original.",
-      "preco": 1260,
+      "preco": 1620,
       "precoOriginal": 1800,
       "categoria": "mecanica",
       "imagem": "img/pecas/20-abs.jpg"

@@ -1673,10 +1673,10 @@ a { color: inherit; text-decoration: none; }
 
 .flyer-hotspot--whatsapp {
   position: absolute;
-  left: 1.9%;
-  width: 25.5%;
-  top: 92.2%;
-  height: 5.5%;
+  left: 1.95%;
+  width: 28.6%;
+  top: 92.45%;
+  height: 4.5%;
   z-index: 4;
   display: block;
   pointer-events: auto;

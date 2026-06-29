@@ -6,10 +6,10 @@ const FLYER = {
   listaLeft: 3.5,
   listaWidth: 93,
   rowHalfH: 18,
-  // Centros calibrados no panfleto 1024×1536 (coluna dos números das linhas)
+  // Centros calibrados no panfleto 10% (1024×1536, coluna dos números das linhas)
   rowCenters: [
-    515, 573, 602, 659, 692, 754, 783, 825, 868, 909, 952, 1000, 1033, 1086, 1110, 1155, 1200, 1225,
-    1255, 1285,
+    506, 549, 593, 640, 687, 731, 776, 821, 865, 911, 955, 998, 1041, 1085, 1129, 1173, 1214, 1253, 1293,
+    1338,
   ],
 };
 
